@@ -3,7 +3,7 @@ import throttle from "../throttle"
 
 describe( 'throttler', () => {
 
-    const ms = 1000
+    const ms = 200
     const restar = jest.fn((a: number,b: number) => { return a - b})
 
     it('should be defined', () => {
